@@ -14,7 +14,7 @@ import java.time.OffsetDateTime;
 @Value
 public class User {
     /* Identifier */
-    Long id;
+    Long userId;
     /* User login */
     String login;
     /* User password */
