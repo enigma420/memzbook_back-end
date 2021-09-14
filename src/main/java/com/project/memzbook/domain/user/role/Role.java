@@ -10,7 +10,7 @@ import lombok.Value;
 @Builder
 public class Role {
     /* Identifier */
-    Integer id;
+    Integer roleId;
     /* Role name */
     String name;
 }
