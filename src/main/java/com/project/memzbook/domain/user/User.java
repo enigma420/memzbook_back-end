@@ -1,4 +1,4 @@
-package com.project.memzbook.domain;
+package com.project.memzbook.domain.user;
 
 import lombok.Builder;
 import lombok.Data;
