@@ -1,0 +1,14 @@
+/* CREATE TABLE USER */
+CREATE TABLE IF NOT EXISTS users(
+id SERIAL,
+login VARCHAR (50),
+password TEXT,
+email VARCHAR (255),
+role_id INT,
+active BOOLEAN,
+points INT,
+rate DOUBLE PRECISION,
+created_at TIMESTAMP WITHOUT TIME ZONE,
+PRIMARY KEY(id),
+FOREIGN KEY(role_id) REFERENCES roles(id)
+ );
